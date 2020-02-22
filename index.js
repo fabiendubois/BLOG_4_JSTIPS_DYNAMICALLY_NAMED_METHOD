@@ -1,22 +1,12 @@
-// class Example {
+class Example {
 
-//     constructor(functionName) {
-//         this[functionName]();
-//     }
+    constructor(functionName) {
+        this[functionName]();
+    }
 
-//     foo() {
-//         console.log("bar");
-//     }
-// }
-
-// let example = new Example("foo");
-
-let cat = {
-    name: "Felix",
-    sayMiaou: function () {
-        console.log('Miaaouu');
+    foo() {
+        console.log("bar");
     }
 }
 
-console.log(cat);
-cat.sayMiaou();
+let example = new Example("foo");
